@@ -12,13 +12,20 @@ mxisd - Federated Matrix Identity Server
 - [FAQ](#faq)
 - [Contact](#contact)
 
+---
+
+**This project is no longer maintained as a standalone product and will be merged in [Gridepo](https://gitlab.com/kamax-io/grid/gridepo).  
+See the [End of Life notice](EOL.md#end-of-life-notice) for more details.**
+
+---
+
 # Overview
 mxisd is a Federated Matrix Identity server for self-hosted Matrix infrastructures with [enhanced features](#features).
 As an enhanced Identity service, it implements the [Identity service API](https://matrix.org/docs/spec/identity_service/r0.2.0.html)
 and several [extra features](#features) that greatly enhance user experience within Matrix.
 It is the one stop shop for anything regarding Authentication, Directory and Identity management in Matrix built in a
 single coherent product.
-  
+
 mxisd is specifically designed to connect to an existing on-premise Identity store (AD/Samba/LDAP, SQL Database,
 Web services/app, etc.) and ease the integration of a Matrix infrastructure within an existing one.  
 Check [our FAQ entry](docs/faq.md#what-kind-of-setup-is-mxisd-really-designed-for) to know if mxisd is a good fit for you.
